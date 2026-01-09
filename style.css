@@ -7,8 +7,7 @@
 
 /* custom font*/
 .font-inter {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Inter", sans-serif;
 }
 
 /* Similar section */
@@ -23,6 +22,9 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 24px;
+    width: 623px;
+    margin-left: 20em;
+
 }
 .section-btn {
     padding: 12px 16px 12px 16px;
@@ -88,7 +90,7 @@
     text-align: center;
     padding: 0 295px;
 }
-.banner-sub-heading {
+.banner-subheading {
     width: 229px;
     height: 35px;
     background-color: #FFFFFF;
@@ -195,19 +197,15 @@
     background-color: #F95555;
 }
 .note-item p {
-    font-size: 24px;
-    color: #001931;
-    font-weight: 700;
-    margin: 16px 0;
-}
-.note-item p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+    margin: 16px 0;
+    font-weight: 400;
 }
 
 /* == Brain section == */
-.brain-container {
+#brain-container {
     max-width: 1360px;
     height: 600px;
     display: flex;
@@ -254,7 +252,7 @@
 }
 
 /* == Early-access-section */
-.early-access-section {
+#early-access-section {
     max-width: 1360px;
     height: 384px;
     margin: 0 auto;
@@ -282,7 +280,7 @@
 }
 
 /* == Footer section == */
-.footer-container {
+#footer-container {
     padding: 130px 0;
     margin-top: 130px;
     background-color: #001931;
