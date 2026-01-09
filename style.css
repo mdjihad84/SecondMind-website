@@ -152,13 +152,13 @@
 .note-title {
     text-align: center;
 }
-.note-title h2 {
+.section-title {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     margin: 30px 0 16px;
 }
-.note-title p {
+.section-description {
     color: #627382;
     font-size: 16px;
     line-height: 20px;
@@ -247,3 +247,43 @@
     font-weight: 500;
     margin-bottom: 16px;
 }
+/* == Early-access-section */
+.early-access-section {
+    max-width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #F7F6F2;
+}
+.early-access-title {
+    width: 1280px;
+    height: 120px;
+    margin-bottom: 18px;
+}
+.early-access-item {
+    max-width: 1280px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-note {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+/* == Footer section == */
+.footer-container {
+    background-color: #001931;
+    height: 348px;
+}
+.footer-info {
+    max-width: 1360px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
