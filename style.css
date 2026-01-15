@@ -315,22 +315,29 @@
 
 /* == Mobile screen */
 @media screen and (max-width: 576px) {
-    #site-header, .note-container {
+    #site-header, .note-container, .brain-container {
         flex-direction: column;
     }
     .header-nav ul{
         gap: 30px;
         margin: 20px 0;
     }
-      .banner, .early-access-section {
+      .banner{
         height: auto;
         padding: 60px 16px;
         margin-top: 9rem;
     }
-    .banner-item ,.brain-left img, .footer-container {
+    .early-access-section {
+        min-height: 24rem;
+        padding: 0;
+    }
+    .banner-item , .brain-left img, .footer-container, .brain-container {
         max-width: 100%;
         height: auto;
         padding: 0;
+    }
+    .brain-container {
+        margin: 55px 0 145px;
     }
     .banner-item h1, .section-title, .brain-right h2 {
         font-size: 37px;
@@ -345,8 +352,14 @@
      }
      .footer-container {
         padding: 35px 19px 35px;
-        margin-top: 13rem;
+        margin-top: 0;
      }
+
+    .early-access-content {
+        max-width: 100%;
+        text-align: center;
+  }
+
 }
 
 /* == tabtel screen == */
