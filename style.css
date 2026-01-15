@@ -363,8 +363,41 @@
 }
 
 /* == tabtel screen == */
-@media screen and (min-width: 577px) and (max-width: 922px) {
-
+@media screen and (min-width: 577px) and (max-width: 992px) {
+     .banner{
+        height: auto;
+        padding: 60px 16px;
+    }
+    .banner-item h1, .section-title, .brain-right h2 {
+        font-size: 37px;
+    }
+    .banner-item {
+        padding: 6rem;
+    }
+    .banner-item p {
+        margin-top: 10px;
+    }
+    .note-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-self: center;
+        gap: 50px;
+    }
+    .brain-left img, .early-access-content{
+        width: 100%;
+        height: auto;
+    }
+    .section-description {
+        margin-left: 0;
+        width: 100%;
+    }
+    .brain-container {
+        margin: 0 auto;
+    }
+    .footer-container {
+        padding: 80px 40px;
+        margin-top: 0;
+    }
 }
 
 
